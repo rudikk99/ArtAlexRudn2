@@ -1,0 +1,119 @@
+.jumbotron{
+    background-image: url('../img/name1.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+.site-footer {
+    /*background-image: linear-gradient(#CEC8FF, white);*/
+    padding: 20px 0;
+}
+.circlePortfolio {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    shape-outside: circle();
+    clip-path: circle();
+    background:  rgb(218, 221, 20);
+}
+
+.circleStore {
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    shape-outside: circle();
+    clip-path: circle();
+    background: rgb(207, 10, 10);
+}
+
+.circleKidsArt {
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    shape-outside: circle();
+    clip-path: circle();
+    background: rgb(240, 100, 8);
+}
+
+.circleAbout {
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    shape-outside: circle();
+    clip-path: circle();
+    background:rgb(137, 197, 24);
+}
+
+.circleContactUs {
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    shape-outside: circle();
+    clip-path: circle();
+    background: rgb(247, 163, 8);
+}
+
+.circleBlog {
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    shape-outside: circle();
+    clip-path: circle();
+    background: rgb(41, 97, 39);
+}
+
+    
+.dotPortfolio {                                 /* 960 x 640 iPhone*/ 
+    height: 110px;
+    width: 110px;
+    background-color: rgb(218, 221, 20);
+    border-radius: 50%;
+    display: inline-block;
+    border-color: 15px black;
+  }
+
+.dotStore {
+    height: 90px;
+    width: 90px;
+    background-color: rgb(207, 10, 10);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dotKidsArt {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(240, 100, 8);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dotAbout {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(137, 197, 24);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dotContactUs {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(247, 163, 8);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dotBlog {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(41, 97, 39);
+    border-radius: 50%;
+    display: inline-block;
+}
