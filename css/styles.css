@@ -159,3 +159,38 @@
     background: #EA9901;
     z-index: 0;
 }
+.item:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.6);
+  }
+
+  body {
+    font-family: 'Roboto Mono', monospace;
+    /*background-image: url(../img/IMG_7057.PNG);*/
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+    color: #080808;
+}
+
+header h2 {
+    color: #d7d6da;
+}
+
+    
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
